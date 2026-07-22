@@ -1,0 +1,15 @@
+id         = "evavh/command-output"
+name       = "Command output"
+version    = "1.0.0"
+plugin_api = 3
+author     = "evavh"
+
+[[widget]]
+id    = "bar_widget"
+entry = "bar_widget.luau"
+
+    [[widget.setting]]
+    key = "command"
+    type = "string"
+    label_key = "settings.command.label"
+    default = "echo \"Please set command\""
