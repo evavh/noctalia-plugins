@@ -1,0 +1,7 @@
+[[plugin]]
+id         = "evavh/command-output"
+name       = "Command output"
+version    = "1.0.0"
+plugin_api = 3
+author     = "evavh"
+deprecated   = false
